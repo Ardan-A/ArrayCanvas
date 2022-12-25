@@ -1,5 +1,5 @@
 public class JTestin{
   public static void main(String[] args){
-    System.out.println("helo");
-	}
+    MainFrame m = new MainFrame();
+  }
 }
