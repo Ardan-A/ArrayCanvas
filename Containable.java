@@ -1,17 +1,17 @@
 import java.util.LinkedList;
 import java.awt.*;
 public class Containable {
-   LinkedList<Graphics> list;
+   LinkedList<Canvas> list;
    Containable (){
-    list = new LinkedList<Graphics>();
+    list = new LinkedList<Canvas>();
    }
-   Containable (LinkedList<Graphics> l){
+   Containable (LinkedList<Canvas> l){
     list = l;
    }
-   public void add(Graphics g){
-    list.add(g);
+   public void add(Canvas c){
+    list.add(c);
    }
-   public LinkedList<Graphics> getList(){
+   public LinkedList<Canvas> getList(){
     return list; 
    }
 }
