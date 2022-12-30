@@ -1,7 +1,7 @@
 # ArrayCanvas
 Graphics rendering class that allows for more advanced storage and manipulation of graphics through Canvas and JPanels (what ACanvas is based off of)
 
-The idea here is to create a more intuitive way to do graphics and eventually create animations through simply calling methods on an ACanvas
+The idea here is to create a more intuitive way to do graphics and eventually create animations through simply calling methods on an ACanvas, and all of that on an open source platform that allows for open development of a tool made by and through its community. 
 
 
 Current Defined Progression of this program: 
