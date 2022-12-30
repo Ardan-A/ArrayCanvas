@@ -1,17 +1,16 @@
 import java.util.LinkedList;
-import java.awt.*;
 public class Containable {
-   LinkedList<Canvas> list;
+   LinkedList<ACanvas> list;
    Containable (){
-    list = new LinkedList<Canvas>();
+    list = new LinkedList<ACanvas>();
    }
-   Containable (LinkedList<Canvas> l){
+   Containable (LinkedList<ACanvas> l){
     list = l;
    }
-   public void add(Canvas c){
+   public void add(ACanvas c){
     list.add(c);
    }
-   public LinkedList<Canvas> getList(){
+   public LinkedList<ACanvas> getList(){
     return list; 
    }
 }
