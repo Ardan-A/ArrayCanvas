@@ -30,7 +30,7 @@ public class Tester{
         e.printStackTrace();
       }
     }
-    // arrayCanvas.paint();
+    arrayCanvas.paint();
   }
 }
 
